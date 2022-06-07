@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.App {
+    display: flex;
+    width: 550px;
+    height: 650px;
+    border: 5px solid midnightblue;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+}
+
+.display {
+    display: flex;
+    margin-bottom: 20px;
+    width: 400px;
+    border: 2px solid;
+    height: 80px;
+    justify-content: end;
+}
+
+.display p {
+    padding: 20px;
+    font-size: 1.8rem;
+}
+
+.calculator-button {
+    display: flex;
+    width: 100px;
+    border: 1px solid;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
+}
