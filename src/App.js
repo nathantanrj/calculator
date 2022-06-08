@@ -89,6 +89,7 @@ function App() {
 
 
   return (
+    <div className="main">
     <div className="App">
       <div className="calculator">
         <div className="display">
@@ -122,6 +123,7 @@ function App() {
         <div className="calculator-button" onClick={() => addOperator("/")}>/</div>
         <div className="calculator-button" onClick={() => resolveEquation()}>=</div>
       </div>
+    </div>
     </div>
   );
 }
